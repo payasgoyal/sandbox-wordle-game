@@ -41,9 +41,11 @@ Server -> Client:
 
 ```
 ├── config.py          # Configuration settings
-├── wordle_server.py   # Server implementation with main logic
-├── wordle_client.py   # Client implementation to create client
-├── answers.txt        # List of possible answers
+├── wordle_server.py   # Server implementation with main logic (Task 2)
+├── wordle_client.py   # Client implementation to create client (Task 2)
+├── task1.py           # Basic implementation of wordle game logic
+├── answers.txt        # List of possible answers (configurable) - picked up from official website
+├── guesses.txt        # List of possible/grammatical correct guesses - picked up from official website
 └── README.md          # Documentation 
 ```
 
