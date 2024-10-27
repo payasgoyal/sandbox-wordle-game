@@ -9,7 +9,7 @@ This project implements a networked version of Wordle where multiple clients can
 ## Architecture
 
 ```
-Client 1                    Server                    Client 2
+Client 1                   Server                   Client 2
 ┌─────┐                   ┌─────┐                   ┌─────┐
 │     │ ───── guess ────► │     │ ◄──── guess ───── │     │
 │     │                   │     │                   │     │
