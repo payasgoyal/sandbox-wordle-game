@@ -129,11 +129,11 @@ python3 wordle_client.py
 
 ## Future Improvements
 
-1. Add user authentication
+1. Add user authenticatio - (Google OAuth)
 2. Implement scoring system
 3. Add game statistics
-4. Create web-based front-end with interactive UI/UX
-6. Implement difficulty levels
+4. Create web-based front-end with interactive UI/UX - (Vue.js/React)
+6. Implement difficulty levels - (Add time pressure, Reducing available attempts, add special rules like no repeation or no consecutive same letters allowed)
 
 
 ## Screenshots
