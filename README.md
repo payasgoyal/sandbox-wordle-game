@@ -134,3 +134,7 @@ python3 wordle_client.py
 3. Add game statistics
 4. Create web-based front-end with interactive UI/UX
 6. Implement difficulty levels
+
+
+## Screenshots
+

@@ -9,6 +9,7 @@ class WordleClient:
         self.host = host
         self.port = port
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.current_attempt = 0
 
     def connect(self):
         try:
@@ -24,7 +25,7 @@ class WordleClient:
         for item in feedback:
             result += item["state"] + item["letter"]
         result += "\033[0m"  # Reset color
-        print(f"Result: {result}")
+        print(f"Round {self.current_attempt}/{MAX_ATTEMPTS}: {result}")
 
     def play(self):
         if not self.connect():
@@ -46,6 +47,7 @@ class WordleClient:
                     print(response["message"])
                     continue
                 
+                self.current_attempt = response["attempts"]
                 self.display_response_from_server(response["feedback"])
                 
                 if "game_over" in response:
