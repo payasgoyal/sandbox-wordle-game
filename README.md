@@ -137,4 +137,4 @@ python3 wordle_client.py
 
 
 ## Screenshots
-
+![Screenshot 2024-10-28 at 2 56 24 AM](https://github.com/user-attachments/assets/3e36748c-0f99-477f-b83e-c7a7e3308287)
