@@ -24,7 +24,7 @@ class WordleClient:
         for item in feedback:
             result += item["state"] + item["letter"]
         result += "\033[0m"  # Reset color
-        print(result)
+        print(f"Result: {result}")
 
     def play(self):
         if not self.connect():
