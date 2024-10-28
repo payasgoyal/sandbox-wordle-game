@@ -67,9 +67,9 @@ The `config.py` file contains all game settings:
 ## Game Flow
 
 ```
-┌─────────┐          ┌──────────┐          ┌─────────┐
-│  Client │          │  Server  │          │   Game  │
-└────┬────┘          └────┬─────┘          └────┬────┘
+┌─────────┐          ┌──────────┐           ┌─────────┐
+│  Client │          │  Server  │           │   Game  │ 
+└────┬────┘          └────┬─────┘           └────┬────┘
      │    Connect         │                      │
      │───────────────────►│                      │
      │                    │     Create Game      │
